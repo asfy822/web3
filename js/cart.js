@@ -79,3 +79,14 @@ function saveCardValues() {
 
 
 saveCardValues()
+ function sendEmail() {
+      Email.send({
+        SecureToken: "YOUR_SECURE_TOKEN", // Get this from smtpjs.com
+        To: 'asfirnazyasin@gmail.com',
+        From: "asfirnazyasin@gmail.com",
+        Subject: "Test Email from JS",
+        Body: "Hello"
+      }).then(
+        message => alert("Email sent: " + message)
+      );
+    }
