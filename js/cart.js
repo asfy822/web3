@@ -81,8 +81,8 @@ function saveCardValues() {
 saveCardValues()
  function sendEmail() {
       Email.send({
-        SecureToken: " 715322b4-0bdb-4f2f-aab9-abb32ff5a3ed", // Get this from smtpjs.com
-        To: 'asshainaba@gmail.com',
+        SecureToken: " 19416757-f38d-4fd5-ba19-5119af529ffe ", // Get this from smtpjs.com
+        To: 'asfirnazyasin@gmail.com',
         From: "asfirnazyasin@gmail.com",
         Subject: "Test Email from JS",
         Body: "Hello"
