@@ -81,12 +81,12 @@ function saveCardValues() {
 saveCardValues()
  function sendEmail() {
       Email.send({
-        SecureToken: "37a38273-3d53-451a-bbb8-0d80437a8970", // Get this from smtpjs.com
-        To: 'asfirnazyasin@gmail.com',
-        From: "asfirnazyasin@gmail.com",
-        Subject: "Test Email from JS",
-        Body: "Hello"
-      }).then(
-        message => alert("Email sent: " + message)
-      );
-    }
+        SecureToken : " 605b7a75-fbeb-49f7-81d0-cfc4255d788f",
+    To : 'asshainaba@gmail.com.com',
+    From : "asfirnazyasin@gmail.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+
