@@ -80,10 +80,10 @@ function saveCardValues() {
 
 saveCardValues()
  function sendEmail() {
-      Email.send({
-        SecureToken : " 605b7a75-fbeb-49f7-81d0-cfc4255d788f",
-    To : 'asshainaba@gmail.com.com',
-    From : "asfirnazyasin@gmail.com",
+Email.send({
+    SecureToken : "C973D7AD-F097-4B95-91F4-40ABC5567812",
+    To : 'them@website.com',
+    From : "you@isp.com",
     Subject : "This is the subject",
     Body : "And this is the body"
 }).then(
